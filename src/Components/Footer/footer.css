@@ -1,0 +1,9 @@
+.footer {
+    background-image: linear-gradient(to right, #590004, #250001);
+    padding: 10px 0px;
+}
+
+.copyright {
+    color: white;
+    align-content: space-between;
+}

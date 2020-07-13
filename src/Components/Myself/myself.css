@@ -1,0 +1,21 @@
+body {
+    font-size: 1.5rem;
+}
+
+.Me {
+    display: flex;
+}
+
+.profile__img {
+    background-image: url('../img/Kelvin\ Ramos-\ Benitez.jpg');
+    height: 400px;
+    width: 25%;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about {
+    width: 75%;
+    font-size: 1.3rem;
+}

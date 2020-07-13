@@ -1,0 +1,28 @@
+.my__projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Projects {
+    border: black solid;
+    /* border-bottom: none; */
+    margin: 20px;
+    padding: 20px;
+    width: 45%;
+}
+
+.Projects img {
+    height: 400px;
+    width: auto;
+}
+
+.project__link {
+    background-color: black;
+    float: right;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
