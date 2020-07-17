@@ -12,7 +12,7 @@
 .Projects {
     border: black solid;
     margin: 20px;
-    width: 47%;
+    width: 46%;
     border-radius: 10px;
     background-color: white;
 }
@@ -45,6 +45,7 @@
     text-decoration: none;
     color: white;
     padding: 10px;
+    align-self: center;
 }
 
 .project__link {
@@ -52,6 +53,7 @@
     text-decoration: none;
     color: white;
     padding: 10px;
+    align-self: center;
 }
 
 .Projects a:hover {
@@ -61,7 +63,7 @@
 
 @media screen and (max-width: 800px) {
     .my__projects {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .Projects {
@@ -70,7 +72,7 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .my__projects {
         flex-direction: column;
     }
@@ -78,5 +80,10 @@
     .Projects {
         width:80%;
         margin: 10px auto;
+    }
+
+    .Projects img {
+        height: 250px;
+        width: 100%;
     }
 }
