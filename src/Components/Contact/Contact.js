@@ -9,7 +9,7 @@ const Contact = () => {
                     <h1>Contact Me</h1>
 
                     <p>If you ever wanna reach out, just fill this out</p>
-                    <form class="cf" name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="GET">
+                    <form class="cf" name="myForm" action="https://formsubmit.co/kelvin.ramos125@gmail.com" method="POST">
                         <label for="name">Name</label>
                         <input type="text" id="name" />
 

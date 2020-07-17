@@ -18,6 +18,7 @@ const Projects = () => {
                 <p>{data.description}</p>
                 <div className = "button__link">
                 <a href = {data.linkhub} className = "github__link">Github View</a>
+                <div id = "divider" />
                 <a href = {data.link} className = "project__link">View Project</a>
               </div>
               </div>

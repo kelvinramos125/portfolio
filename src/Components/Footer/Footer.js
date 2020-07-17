@@ -4,18 +4,10 @@ import "../Footer/footer.css"
 const Footer = ()=> {
         return(
             <div className = "footer">
-                <div>
-                    <ul className = "footer_ul">
-                        <li><a href = "/">Home</a></li>
-                        <li><a href = "/Projects">Project</a></li>
-                        <li><a href = "/Resume">Resume</a></li>
-                        <li><a href = "/Contact">Contact</a></li>
-                    </ul>
-                </div>
                 <div className="contact__icon">
-                        <a href="https://github.com/kelvinramos125"><img src="/img/github.png" /></a>
-                        <a href="https://www.linkedin.com/in/kelvin-melendez-benitez-262a69193/"><img src="/img/linkedin.png" /></a>
-                        <a href="twitter"><img src="/img/twitter.png" /></a>
+                        <a href="https://github.com/kelvinramos125"><img src="/img/github.png" alt = "github logo" /></a>
+                        <a href="https://www.linkedin.com/in/kelvin-melendez-benitez-262a69193/"><img src="/img/linkedin.png" alt = "linkedin logo" /></a>
+                        <a href="twitter"><img src="/img/twitter.png" alt = "twitter logo" /></a>
                     </div>
                 <p className='copyright'>Kelvin Portfolio &copy; 2020 | All Right Reserved</p>
             </div>
