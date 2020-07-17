@@ -4,13 +4,10 @@ import "../Resume/resume.css"
 const Resume = () => {
     return (
         <div>
-            <h1>Resume</h1>
-        <div className = "resume">
+            <h1 className = "resume__heading">Resume</h1>
+        <div className = "resume__paper">
             <h3>Kelvin Melendez-Benitez</h3>
-            <p>2572 Courtland Dr,</p>
-            <p>Clover, SC</p>
-            <p>(803)616-1215</p>
-            <p>kelvin.ramos125@gmail.com </p>
+            <p><a href = "mailto: abc@example.com">kelvin.ramos125@gmail.com</a></p>
 
             <h3>Career Objective</h3>
             <p>To assist in building and setting up Websites for 

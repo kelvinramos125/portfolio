@@ -1,32 +1,32 @@
-nav {
+.navbar {
     background-image: linear-gradient(to right, #a50104, #590004);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 10px 0px;
 }
 
 ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 5px;
-    margin: 5px;
-    padding: 10px;
+    justify-content: space-around;
+    padding: 5px;
 }
 
-li{
+.nav_ul li{
     list-style: none;
 }
 
-a {
-    margin: 0px 20px;
+.nav_ul a {
     padding: 1.1rem;
     color: white;
     text-decoration: none;
 }
 
-li :hover{
+.nav_ul li :hover{
     background-color: white;
     color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        font-size: 10px;
+    }
 }

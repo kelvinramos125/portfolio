@@ -1,13 +1,12 @@
 import React from 'react';
 import Myself from '../Myself/Myself';
-import Resume from '../Resume/Resume';
+import "../Index.js/index.css";
 
 const Home = () => {
     return (
         <div>
             <div className = "main">
                 <Myself />
-                <Resume />
             </div>
         </div>
     )

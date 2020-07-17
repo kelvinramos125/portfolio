@@ -4,8 +4,10 @@ import "../Myself/myself.css"
 const Myself = () => {
     return (
         <div>
-            <h1>Kelvin Melendez-Benitez Portfolio</h1>
-            <h2>Designer and Front-End Developer</h2>
+            <div className = "heading">
+                <h1>Kelvin Melendez-Benitez Portfolio</h1>
+                <h2>Designer and Front-End Developer</h2>
+            </div>
             <div className = "Me">
                 <div className = "profile__img" />
                 <div className = "about">
@@ -18,6 +20,10 @@ const Myself = () => {
                         during the program, while also having encountered C#, Java, and 
                         MySQL during my time in college. I’m passionate and creative and 
                         want to show what I can do to a great company like yours.</p>
+                        <img src="/img/html.png" />
+                        <img src="/img/css.png" />
+                        <img src="/img/javascript.png" />
+                        <img src="/img/react.png" />
                 </div>
             </div>
         </div>

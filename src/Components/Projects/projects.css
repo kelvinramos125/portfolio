@@ -1,28 +1,64 @@
+#project__heading {
+    text-align: center;
+}
+
 .my__projects {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .Projects {
     border: black solid;
-    /* border-bottom: none; */
     margin: 20px;
-    padding: 20px;
-    width: 45%;
+    /* padding: 20px; */
+    width: 47%;
+    border-radius: 10px;
 }
 
 .Projects img {
-    height: 400px;
-    width: auto;
+    height: auto;
+    width: 100%;
+}
+
+.Projects h2 {
+    text-align: center;
+}
+
+.button__link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.github__link {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
 }
 
 .project__link {
     background-color: black;
-    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
 }
 
-a:hover {
+.Projects a:hover {
     background-color: white;
     color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .my__projects {
+        flex-direction: column;
+    }
+
+    .Projects {
+        width:80%;
+        margin: 10px auto;
+    }
 }

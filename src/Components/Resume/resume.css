@@ -1,8 +1,27 @@
-.resume {
+.resume__heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.resume__paper {
     margin: 20px;
     background-color: white;
-    width: 400px;
-    font-size: 1.2rem;
-    padding: 25px 75px;
-    float: center;
+    width: 800px;
+    padding: 25px 50px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+    .resume__paper {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resume__paper {
+        width: 200px;
+        font-size: .5rem;
+    }
 }

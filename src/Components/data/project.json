@@ -1,31 +1,46 @@
 {
-    "projects":
-[
+  "projects": [
     {
-    "title": "Gate Way Project",
-    "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ee7c6ffbde906019f45bee7/screenshot.png",
-    "alt": "Gateway Project image",
-    
-    "link": "https://gateway-egypt.netlify.app/"
-},
-
+      "title": "Gate Way Project",
+      "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ee7c6ffbde906019f45bee7/screenshot.png",
+      "alt": "Gateway Project image",
+      "linkhub": "https://github.com/kelvinramos125/egypt",
+      "link": "https://gateway-egypt.netlify.app/"
+    },
     {
-    "title": "Guessing Game API",
-    "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ee7c6c36fa7f6029a79d7db/screenshot.png",
-    "alt": "Guessing Game image",
-    "link": "https://guessing-game-api.netlify.app/"    
-},
-{
-    "title":"Tic-Tac-Toe Game",
-    "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ece839383e8e988a8122a08/screenshot.png",
-    "alt": "Tic-Tac-Toe Game image",
-    "link": "https://tic-tac-toegame.netlify.app/"
-},
-{
-    "title":"Game World - React Product Page",
-    "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ee27cb150fcb70007332dec/screenshot.png",
-    "alt": "Game World image",
-    "link": "https://game-w0rld.netlify.app/"
-}
-]
+      "title": "Kelvin Hotel",
+      "img": "/img/kh.png",
+      "alt": "Kelvin Hotel image",
+      "linkhub": "https://github.com/kelvinramos125/K-Hotel",
+      "link": "https://kh-hotel.netlify.app/"
+    },
+    {
+        "title": "Hamburger-Navbar",
+        "img": "/img/hamburger-nav.png",
+        "alt": "Hamburger-Navbar image",
+        "linkhub": "https://github.com/kelvinramos125/Hamburger-Navbar",
+        "link": "https://hamburger-navbar.netlify.app/"
+      },
+    {
+      "title": "Guessing Game API",
+      "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ee7c6c36fa7f6029a79d7db/screenshot.png",
+      "alt": "Guessing Game image",
+      "linkhub": "https://github.com/kelvinramos125/Guessing-Game-API",
+      "link": "https://guessing-game-api.netlify.app/"
+    },
+    {
+      "title": "Tic-Tac-Toe Game",
+      "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ece839383e8e988a8122a08/screenshot.png",
+      "alt": "Tic-Tac-Toe Game image",
+      "linkhub": "https://github.com/kelvinramos125/tic-tac-toe",
+      "link": "https://tic-tac-toegame.netlify.app/"
+    },
+    {
+      "title": "Game World - React Product Page",
+      "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ee27cb150fcb70007332dec/screenshot.png",
+      "alt": "Game World image",
+      "linkhub": "https://github.com/kelvinramos125/react-ecommerce",
+      "link": "https://game-w0rld.netlify.app/"
+    }
+  ]
 }
