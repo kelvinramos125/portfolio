@@ -21,6 +21,20 @@
         "linkhub": "https://github.com/kelvinramos125/Hamburger-Navbar",
         "link": "https://hamburger-navbar.netlify.app/"
       },
+      {
+        "title": "Card Finder",
+        "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ec297e65589d1545de7c42d/screenshot.png",
+        "alt": "Card Finder image",
+        "linkhub": "https://github.com/kelvinramos125/react-githubcards",
+        "link": "https://card-finder.netlify.app/"
+      },
+      {
+        "title": "KM-To Do List",
+        "img": "/img/km-todo.png",
+        "alt": "KM-To Do List",
+        "linkhub": "https://github.com/kelvinramos125/to-do",
+        "link": "https://km-to-do.netlify.app/"
+      },
     {
       "title": "Guessing Game API",
       "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ee7c6c36fa7f6029a79d7db/screenshot.png",
@@ -36,11 +50,18 @@
       "link": "https://tic-tac-toegame.netlify.app/"
     },
     {
-      "title": "Game World - React Product Page",
+      "title": "Game World - React",
       "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ee27cb150fcb70007332dec/screenshot.png",
       "alt": "Game World image",
       "linkhub": "https://github.com/kelvinramos125/react-ecommerce",
       "link": "https://game-w0rld.netlify.app/"
+    },
+    {
+      "title": "TechCrunch Redesign",
+      "img": "/img/techcrunch.png",
+      "alt": "TechCrunch Redesign image",
+      "linkhub": "https://github.com/E972630a/techcrunch",
+      "link": "https://techcrunch-redesign.netlify.app/"
     }
   ]
 }
